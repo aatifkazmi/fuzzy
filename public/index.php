@@ -8,7 +8,7 @@ if (PHP_SAPI == 'cli-server') {
         return false;
     }
 }
-
+// made few changes to have different version
 require __DIR__ . '/../vendor/autoload.php';
 
 session_start();
